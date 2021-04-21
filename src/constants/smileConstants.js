@@ -1,0 +1,9 @@
+export const WIDTH = 960;
+export const HEIGHT = 500;
+export const STROKE_WIDTH = 10;
+export const EYE_OFFSET_X = 110;
+export const EYE_OFFSET_Y = 110;
+export const EYE_SIZE = HEIGHT / 10
+export const CENTER_X = WIDTH / 2;
+export const CENTER_Y = HEIGHT / 2;
+export const MOTH_RADIUS = 200;
