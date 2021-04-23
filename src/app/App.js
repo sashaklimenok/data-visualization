@@ -8,21 +8,23 @@ import {
   WIDTH,
   HEIGHT,
   STROKE_WIDTH
-} from '../constants/smileConstants';
+} from '../constants/constants';
+import { PieColors } from '../course/Part-2-PieColors/PieColors';
 
 function App() {
   return (
     <div className="App">
-      <SmileFace
-        centerX={CENTER_X}
-        centerY={CENTER_Y}
-        eyeOffsetY={EYE_OFFSET_Y}
-        eyeOffsetX={EYE_OFFSET_X}
-        eyeSize={EYE_SIZE}
-        height={HEIGHT}
-        width={WIDTH}
-        strokeWidth={STROKE_WIDTH}
-      />
+      {/*<SmileFace*/}
+      {/*  centerX={CENTER_X}*/}
+      {/*  centerY={CENTER_Y}*/}
+      {/*  eyeOffsetY={EYE_OFFSET_Y}*/}
+      {/*  eyeOffsetX={EYE_OFFSET_X}*/}
+      {/*  eyeSize={EYE_SIZE}*/}
+      {/*  height={HEIGHT}*/}
+      {/*  width={WIDTH}*/}
+      {/*  strokeWidth={STROKE_WIDTH}*/}
+      {/*/>*/}
+      <PieColors />
     </div>
   );
 }
