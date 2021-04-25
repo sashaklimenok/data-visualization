@@ -10,6 +10,7 @@ import {
   STROKE_WIDTH
 } from '../constants/constants';
 import { PieColors } from '../course/Part-2-PieColors/PieColors';
+import { ChartBar } from '../course/Part-3-ChartBar/ChartBar';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/*  width={WIDTH}*/}
       {/*  strokeWidth={STROKE_WIDTH}*/}
       {/*/>*/}
-      <PieColors />
+      {/*<PieColors />*/}
+      <ChartBar />
     </div>
   );
 }
