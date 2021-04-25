@@ -11,6 +11,8 @@ export const PieColors = () => {
     .innerRadius(0)
     .outerRadius(WIDTH)
 
+  const colorPie = pie().value(1);
+
   useEffect(async () => {
     const data = await csv(CSV_URL);
     setDate(data);
@@ -24,7 +26,7 @@ export const PieColors = () => {
     <svg width={WIDTH} height={HEIGHT}>
       <g transform={`translate(${CENTER_X}, ${CENTER_Y})`}>
         {
-          pie().value(1)(data).map((d) => (
+          colorPie(data).map((d) => (
                 <path
                   key={d.data['Keyword']}
                   fill={d.data['RGB hex value']}
