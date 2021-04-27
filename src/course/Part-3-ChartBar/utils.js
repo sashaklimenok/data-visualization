@@ -11,6 +11,7 @@ export const addPopulateColumn = (data) => {
 export const getYScale = (data, height) => scaleBand()
   .domain(data.map(yValue))
   .range([0, height])
+  .paddingInner(0.2)
 
 export const getXScale = (data, width) => scaleLinear()
   .domain([0, max(data, xValue)])

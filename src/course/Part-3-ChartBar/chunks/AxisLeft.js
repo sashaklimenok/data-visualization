@@ -7,6 +7,7 @@ export const AxisLeft = ({yScale}) => (
     >
       <text
         x={-3}
+        y={yScale.bandwidth() / 2}
         textAnchor={'end'}
         dy={'.32em'}>
         {domainValue}
