@@ -11,6 +11,7 @@ import {
 } from '../constants/constants';
 import { PieColors } from '../course/Part-2-PieColors/PieColors';
 import { ChartBar } from '../course/Part-3-ChartBar/ChartBar';
+import { Scatterplot } from '../course/Part-4-Scatterplot/Scatterplot';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/*  strokeWidth={STROKE_WIDTH}*/}
       {/*/>*/}
       {/*<PieColors />*/}
-      <ChartBar />
+      {/*<ChartBar />*/}
+      <Scatterplot />
     </div>
   );
 }
